@@ -5,9 +5,36 @@ body {
 .upcoming-shows {
   color: aliceblue;
   float: right;
+  font-weight: 200;
+  font-size: 20px;
+  text-shadow: 1px 1px red;
+  border: 2px 2px;
+  border-color: red;
+  box-shadow:  2px 2px rgba(255, 237, 237, 0.587);
+  padding: 15px;
+  margin-right: 5%;
+
+}
+.band-images{
+  overflow:scroll;
 }
 
-.band-images {
-  float: right;
+img {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 5px;
+    float: right;
 }
 
+img:hover{
+    margin: 5px;
+    box-shadow: 2px 2px white;  
+    
+}
+
+h1 {
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
