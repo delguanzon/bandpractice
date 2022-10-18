@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  color: aliceblue;
 }
 
 .upcoming-shows {
@@ -28,12 +29,12 @@ img {
 
 img:hover{
     margin: 5px;
-    box-shadow: 2px 2px white;  
+    box-shadow: 2px 2px white;
     
 }
 
 h1 {
-    color: aliceblue;
+    /*color: aliceblue;*/
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 80px;
     text-align: center;
