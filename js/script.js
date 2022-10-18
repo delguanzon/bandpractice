@@ -1,5 +1,5 @@
 
-let button = document.querySelector("h1");
+let button = document.getElementById("secret");
 button.onclick  = function () {
         function rgb(){
         min = Math.ceil(0);

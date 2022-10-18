@@ -17,7 +17,7 @@ body {
 
 }
 .band-images{
-  overflow:scroll;
+  overflow:hidden;
 }
 
 img {
